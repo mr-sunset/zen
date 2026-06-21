@@ -24,8 +24,6 @@ body {
 /******************/
 
 #welcome-container {
-    display: none; /* Temporary */
-
     background-color: rgb(255, 255, 255, 0.5);
     border: 4px solid white;
     border-radius: 12px;
