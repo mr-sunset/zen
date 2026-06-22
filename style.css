@@ -1,6 +1,13 @@
+@keyframes fade-out {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+
 /* Class to hide the welcome screen */
-.no-display {
-    display: none;
+.fade-out {
+    animation: fade-out 0.12s forwards;
+    pointer-events: none;
 }
 
 body {
