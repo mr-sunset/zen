@@ -1,3 +1,10 @@
+<!-- 
+TODO: 
+- Add dark mode, where the background and sand become darker
+- Style w-tip
+- Black noise file is corrupted. Find another or fix the current one
+-->
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -9,18 +16,18 @@
     </head>
 
     <body>
+        <audio src="assets/black-noise.m4a" id="black-noise" autoplay loop></audio>
+
         <div id="welcome-container">
             <h1 id="w-h1">Zen</h1>
             <p id="w-desc">A simple landscape with black noise.</p>
+            <p id="w-tip">You may need to click anywhere on the page before audio can play.</p>
             <button id="w-enter">Enter Zen</button>
         </div>
 
         <div id="main-container">
             <img src="assets/sand.svg" alt="sand" id="sand" draggable="false" height="100">
             <img src="assets/group-tree.svg" alt="tree group" id="group-tree" height="200">
-            <!-- <img src="assets/tree.svg" alt="tree1" id="tree1" height="200">
-            <img src="assets/tree.svg" alt="tree2" id="tree2" height="200">
-            <img src="assets/tree.svg" alt="tree3" id="tree3" height="200"> -->
         </div>
 
         <script src="script.js"></script>

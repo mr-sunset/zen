@@ -4,7 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const wDesc = document.getElementById('w-desc');
     const wEnter = document.getElementById('w-enter');
 
+    // Hide welcome container when button clicked
     wEnter.addEventListener('click', () => {
         welcomeContainer.classList.add('fade-out');
     })
+
+    // Black noise logic
+    
 })
