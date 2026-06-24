@@ -45,6 +45,11 @@ body {
     font-size: 2.2rem;
 }
 
+#w-tip {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
 #w-enter {
     background-color: #c0deff;
     padding: 10px 20px;
