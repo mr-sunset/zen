@@ -31,7 +31,6 @@ body {
 /******************/
 
 #welcome-container {
-    /* background-color: rgb(255, 255, 255, 0.5); */
     border: 4px solid white;
     border-radius: 12px;
     padding: 32px 20px;
@@ -92,5 +91,30 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-    
+    body {
+        background-image: url('assets/sky-dark.svg');
+        color: rgb(100, 100, 100);
+    }
+
+    #welcome-container {
+        border: 4px solid rgb(20, 20, 20);
+    }
+
+    #w-enter {
+        background-color: rgb(100, 100, 100);
+        color: black;
+        border: 2px solid rgb(20, 20, 20);
+        box-shadow: 4px 4px 0 rgb(50, 50, 50);
+    }
+
+    #w-enter:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 rgb(50, 50, 50); }
+    #w-enter:active { transform: translate(1px, 1px); box-shadow: 3px 3px 0 rgb(50, 50, 50); }
+
+    #group-tree {
+        filter: brightness(0.4);
+    }
+
+    #sand {
+        filter: brightness(0.2);
+    }
 }
