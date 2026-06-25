@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const blackNoise = document.getElementById('black-noise');
     const wEnter = document.getElementById('w-enter');
 
-    // Hide welcome container when button clicked
+    // Hide welcome container when button clicked and hide cursor
     wEnter.addEventListener('click', () => {
         welcomeContainer.classList.add('fade-out');
+        document.body.style.cursor = "none";
     })
 
     // Black noise control logic 
