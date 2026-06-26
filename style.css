@@ -98,8 +98,13 @@ body {
     position: absolute;
     top: 20px;
     height: 40px;
-    width: 90dvw;
+    width: 300px;
+    max-width: 90vw;
     color-scheme: light;
+}
+
+label {
+    cursor: pointer;
 }
 
 #w-controls-toggle,
