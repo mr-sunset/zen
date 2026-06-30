@@ -59,7 +59,7 @@ body {
 }
 
 #w-enter:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 black; }
-#w-enter:active { transform: translate(1px, 1px); box-shadow: 3px 3px 0 black; }
+#w-enter:active { transform: translate(2px, 2px); box-shadow: none; }
 
 /************/
 /* Elements */
